@@ -31,11 +31,11 @@ const {totalRating,avgRating} = calculateAvgRating(reviews)
                         
                         </span>
                     </div>
-                    <h5 className='tour__title'><Link to={'/tours/${id}'}>{title}</Link></h5>
+                    <h5 className='tour__title'><Link to={`/tours/${id}`}>{title}</Link></h5>
                     <div className="card__bottom d-flex align-items-center justify-content-between mt-3">
                         <h5> ${price}<span>/per person</span></h5>
                         <button className="btn booking__btn">
-                            <Link to={'/tour/${id}'}>Book Now</Link>
+                            <Link to={`/tour/${id}`}>Book Now</Link>
                         </button>
                     </div>
                 </CardBody>
