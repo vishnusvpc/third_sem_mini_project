@@ -45,7 +45,7 @@ const Footer = () => {
                     <Col lg='3'>
                         <div className="logo">
                             <img src={logo} alt="" />
-                            <p>ummmma
+                            <p>
                             Explore the world with confidence. Our travel app is here to guide you on unforgettable journeys, tailored just for you. Safe travels and happy exploring!"
                             </p>
                             <div className="social__links d-flex align-items-center gap-4">
